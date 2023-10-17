@@ -16,8 +16,10 @@ export default props => {
                 <View style={styles.productCard}>
                     <Image source={{ uri: item.imagens }} style={styles.productImage} />
                     <View style={styles.productInfo}>
-                        <Text style={styles.productName}>{item.nome}</Text>
-                        <Text style={styles.productDescription}>{item.info}</Text>
+                        <Text style={styles.productModelo}>{item.modelo}</Text>
+                        <Text style={styles.productAno_fabricacao}>{item.ano_fabricacao}</Text>
+                        <Text style={styles.productInfo}>{item.info}</Text>
+                        <Text style={styles.productWhatsapp}>{item.whatsapp}</Text>
                     </View>
                 </View >
             </TouchableOpacity>
